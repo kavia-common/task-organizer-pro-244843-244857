@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Minimal Next.js App",
-  description: "Ultra-minimal Next.js application",
+  title: "Task Organizer Pro",
+  description:
+    "Task management app with authentication, priorities, due dates, status lanes, and search/filtering.",
 };
 
 export default function RootLayout({

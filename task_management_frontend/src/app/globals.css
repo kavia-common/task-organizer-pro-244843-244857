@@ -1,10 +1,17 @@
 @import "tailwindcss";
 
+/* Retro theme tokens (used by the app components) */
 :root {
-  --color-primary: #000000;
-  --color-secondary: #FFFFFF;
-  --color-accent: #3B82F6;
-  --color-background: #FFFFFF;
+  --retro-ink: #111827;
+  --retro-bg: #f9fafb;
+  --retro-surface: #ffffff;
+
+  --retro-accent: #3b82f6;
+  --retro-accent-2: #06b6d4;
+
+  --retro-danger: #ef4444;
+  --retro-success: #06b6d4;
+  --retro-muted: #e5e7eb;
 }
 
 * {
@@ -17,10 +24,11 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: var(--color-background);
-  color: var(--color-primary);
+  background-color: var(--retro-bg);
+  color: var(--retro-ink);
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
